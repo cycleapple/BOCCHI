@@ -4,5 +4,11 @@
     "baseCommit": "07297de9533c41e98c0b56a91af28335726b0bba",
     "patch": "patches/820ae1faf7d052e7.patch",
     "sha256": "b849c416e1fb04f772ddc487723bf8925b4eaf6ddd2ced9d477cb74a3bfe1e1f"
+  },
+  {
+    "path": "api14-deps/Pictomancy",
+    "baseCommit": "788bc339a67e7a3db01a47a954034a83b9c3b61b",
+    "patch": "patches/cd088f19ec0d9e46.patch",
+    "sha256": "1e326a328e0cef819a3bb0b40e74a72a008b2a6916d82886bd4401884fcfa112"
   }
 ]
