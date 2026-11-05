@@ -3,6 +3,6 @@
     "path": "Ocelot",
     "baseCommit": "07297de9533c41e98c0b56a91af28335726b0bba",
     "patch": "patches/820ae1faf7d052e7.patch",
-    "sha256": "e47d1333669afc8b59566f1d756f327308aba634311ee82fee4a9ff77dcd21cb"
+    "sha256": "b849c416e1fb04f772ddc487723bf8925b4eaf6ddd2ced9d477cb74a3bfe1e1f"
   }
 ]

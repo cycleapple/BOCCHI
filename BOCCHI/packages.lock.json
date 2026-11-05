@@ -46,17 +46,6 @@
           "Microsoft.NETCore.Platforms": "1.1.0"
         }
       },
-      "Pictomancy": {
-        "type": "Transitive",
-        "resolved": "0.0.1",
-        "contentHash": "o40yKEYUsUmHLGEyfi2dzrPJBaiYGAL6Jwc32NOZUx9znXvwL0RS2A3AOGzi4wHhTEfTesLuU5yNIs60hT4ayg==",
-        "dependencies": {
-          "SharpDX.D3DCompiler": "4.2.0",
-          "SharpDX.Direct2D1": "4.2.0",
-          "SharpDX.Direct3D11": "4.2.0",
-          "SharpDX.Mathematics": "4.2.0"
-        }
-      },
       "SharpDX": {
         "type": "Transitive",
         "resolved": "4.2.0",
@@ -117,6 +106,15 @@
         "dependencies": {
           "Ecommons": "[3.1.0.29, )",
           "Pictomancy": "[0.0.1, )"
+        }
+      },
+      "pictomancy": {
+        "type": "Project",
+        "dependencies": {
+          "SharpDX.D3DCompiler": "[4.2.0, )",
+          "SharpDX.Direct2D1": "[4.2.0, )",
+          "SharpDX.Direct3D11": "[4.2.0, )",
+          "SharpDX.Mathematics": "[4.2.0, )"
         }
       }
     }
