@@ -161,7 +161,8 @@ public class CriticalEncounter : Activity
     protected override float GetRadius()
     {
         // This is kind of an assumption, but it seems accurate enough for most encounters.
-        return Encounter.Unknown4;
+        // Retain the API13 fallback value, now named Duration by ClientStructs.
+        return Encounter.Duration;
     }
 
     protected override Vector3 GetPosition()

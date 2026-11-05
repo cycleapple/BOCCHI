@@ -111,23 +111,23 @@ public class CriticalEncountersPanel : Panel
 
         OcelotUi.Title(Ocelot.I18N.T("ui.unknown0"));
         ImGui.SameLine();
-        ImGui.TextUnformatted(ev.Unknown0.ToString());
+        ImGui.TextUnformatted("API14 未公開此欄位");
 
         OcelotUi.Title(Ocelot.I18N.T("ui.unknown1"));
         ImGui.SameLine();
-        ImGui.TextUnformatted(ev.Unknown1.ToString());
+        ImGui.TextUnformatted("API14 未公開此欄位");
 
         OcelotUi.Title(Ocelot.I18N.T("ui.unknown6"));
         ImGui.SameLine();
-        ImGui.TextUnformatted(ev.Unknown6.ToString());
+        ImGui.TextUnformatted("API14 未公開此欄位");
 
         OcelotUi.Title(Ocelot.I18N.T("ui.unknown7"));
         ImGui.SameLine();
-        ImGui.TextUnformatted(ev.Unknown7.ToString());
+        ImGui.TextUnformatted("API14 未公開此欄位");
 
         OcelotUi.Title(Ocelot.I18N.T("ui.unknown2"));
         ImGui.SameLine();
-        ImGui.TextUnformatted(ev.Unknown2.ToString());
+        ImGui.TextUnformatted("API14 未公開此欄位");
 
         OcelotUi.Title(Ocelot.I18N.T("ui.event_type_rowid"));
         ImGui.SameLine();
@@ -143,11 +143,11 @@ public class CriticalEncountersPanel : Panel
 
         OcelotUi.Title(Ocelot.I18N.T("ui.radius"));
         ImGui.SameLine();
-        ImGui.TextUnformatted(ev.Unknown4.ToString());
+        ImGui.TextUnformatted("API14 未公開此欄位");
 
         OcelotUi.Title(Ocelot.I18N.T("ui.unknown5"));
         ImGui.SameLine();
-        ImGui.TextUnformatted(ev.Unknown5.ToString());
+        ImGui.TextUnformatted("API14 未公開此欄位");
 
         OcelotUi.Title(Ocelot.I18N.T("ui.single_battle_rowid"));
         ImGui.SameLine();
@@ -155,7 +155,7 @@ public class CriticalEncountersPanel : Panel
 
         OcelotUi.Title(Ocelot.I18N.T("ui.unknown8"));
         ImGui.SameLine();
-        ImGui.TextUnformatted(ev.Unknown8.ToString());
+        ImGui.TextUnformatted("API14 未公開此欄位");
 
         OcelotUi.Title(Ocelot.I18N.T("ui.start_timestamp"));
         ImGui.SameLine();

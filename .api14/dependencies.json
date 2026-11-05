@@ -1,0 +1,8 @@
+[
+  {
+    "path": "Ocelot",
+    "baseCommit": "07297de9533c41e98c0b56a91af28335726b0bba",
+    "patch": "patches/820ae1faf7d052e7.patch",
+    "sha256": "e47d1333669afc8b59566f1d756f327308aba634311ee82fee4a9ff77dcd21cb"
+  }
+]

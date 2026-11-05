@@ -24,11 +24,11 @@ public class JobLevelPanel : Panel
         {
             foreach (var job in Svc.Data.GetExcelSheet<MKDSupportJob>())
             {
-                OcelotUi.Title(Localization.GameName("MKDSupportJob", job.RowId, job.Unknown0.ToString()));
+                OcelotUi.Title(Localization.GameName("MKDSupportJob", job.RowId, job.Name.ToString()));
                 OcelotUi.Indent(() =>
                 {
                     var level = state->SupportJobLevels[(byte)job.RowId];
-                    OcelotUi.LabelledValue(Ocelot.I18N.T("ui.level"), $"{level}/{job.Unknown10}");
+                    OcelotUi.LabelledValue(Ocelot.I18N.T("ui.level"), $"{level}/{job.LevelMax}");
                 });
 
                 OcelotUi.Indent(() =>

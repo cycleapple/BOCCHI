@@ -6,7 +6,7 @@
   "Description": "提供繁體中文（台灣）介面。\n- 查看危命任務與緊急遭遇戰及其獎勵。\n- 自動規劃路徑、傳送、尋找寶箱與胡蘿蔔。\n- 追蹤經驗值、貨幣及兩歧塔狀態。\n- 可依設定啟用全自動模式。",
   "IconUrl": "https://raw.githubusercontent.com/OhKannaDuh/OccultCrescentHelper/refs/heads/master/assets/icon.png",
   "ApplicableVersion": "any",
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "Tags": [
     "BOCCHI",
     "Occult Crescent",

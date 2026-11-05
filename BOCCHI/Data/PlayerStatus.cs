@@ -51,7 +51,7 @@ public static class StatusListExtensions
         return false;
     }
 
-    public static Status? Get(this StatusList current, PlayerStatus status)
+    public static IStatus? Get(this StatusList current, PlayerStatus status)
     {
         return current.FirstOrDefault(s => s.StatusId == (uint)status);
     }
